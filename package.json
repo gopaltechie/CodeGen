@@ -4,11 +4,15 @@
   "description": "Template based code generation",
   "main": "index.js",
   "scripts": {
+    "new": "plop --plopfile generator/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "googleapis": "^133.0.0"
+  },
+  "devDependencies": {
+    "plop": "^4.0.1"
   }
 }

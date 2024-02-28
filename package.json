@@ -1,0 +1,14 @@
+{
+  "name": "code-automation",
+  "version": "1.0.0",
+  "description": "Template based code generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^133.0.0"
+  }
+}

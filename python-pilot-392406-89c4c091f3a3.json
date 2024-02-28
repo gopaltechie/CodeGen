@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "python-pilot-392406",
+  "private_key_id": "89c4c091f3a36ff290d2151d508bb893a48bfb30",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDrvsJIv0KQ71VZ\n/XMZ5HenFrHp8uVfi99X6L7g969B83e//D1zuqfZse+FlMsEwEFR+v1naGZxb7pk\nyH4vCbsl6ascgGlW1T4GJvgmYXR4itswCnjLlwcmln1ecWzsxbwv6R2gzBRIpNuX\n/MxpvCl8309EIxzREnvZZM5SlpQQ8S8Sr2Nm4wDGMfbMyg7SVpp3I5KXUynCmVk5\n13HDGX0whN/tWaIEhXDylgyGLc3ikf8CB4uEmmN7GS5hlDkenhbkWKQ9OYdxQUQt\npiqtqfgH4deKShdjj+1zlXoOXo1YdfK6nD7W3yPljlNObD+2wPZaOiZgN8vb1J/r\nuxf6C0GjAgMBAAECggEAYzUCNrICNdL6JKYzl2xdbBvxYCX/H+/RXAHOvgaNot/t\n/4WLaNXeiA7I4PqmWwf7FSBeHnPBVLBzjLEQ5QOf1csZXqOtcMTJVrZ0jFZLuOSa\nbAOkJO0YLcV72dA6ygNGeBUOiloHmTCDVtkkPsTX4rxo86AhIty38Nrqtre2dM/z\nm1b6elsbKhjvBl4Flcgb9B9yyA3OhU/7GbQqyxxTIbViv70JVa5g4ZgMW7RMLnKr\ngZnc08sjWM1i8ZT2kpW+VztbMyulX2ZrlPzTAcE8DjR3BhNMZEfmupVyuN89L34m\na44H+Mn2ZICai4spCBzg+9o+lH+YwsDLe8A71/eEYQKBgQD+1c8cJI4TFhjCEE/x\n7tr5KY3zxFqin//8zhT8gxNhl92v6qDpgd5epQc5XNtPzi33SrhLufg/ylnw+qgJ\n+vLdgLjkqAMgxqBOu6OUOJ4MKOPO/QFIN0IU+6pNwe55G0e2CG5qejiac1RZ+lnZ\nfZEJSvSIxHdlwbXaISS164apwwKBgQDs0pytaEDt/ggIXnAihlacOmiBQDVOsXsX\nptDDEeiUJQh622F2U2r6Qx2z0nna30F+9UK0cxHLXGuSayRqJDyc4/osD0juwzXI\nBzM2fxs2BK7HhSCAWh+Lq/xexvRlp/l5EN9WqcvFX24Plfzn0dlC5lqHei0N9Yie\n4mT30vWqoQKBgQDO3iAnt2ECC3EDsJxFSGHH3DzYwu/UjlAPF/gfWARWuCKFGNGR\nXRR3/j2UClYaPcRAuA5NouTsW8aRgdkBaQ7YUxNEw0Luy279GwNaYm+ibVso/2eY\nCQuC3x1Ly/9bnpKjKcsAcsEaWD8EX9+qV21yfr9texd1qj+GmFslttF1YwKBgQDc\nBfC6yxlIA7PC0rqr2NOu4jUloFnmes458yoRkhnbSWzPd/Lc1DOXv7Ng1jOQPcvE\nAGmw7RejMIJgzlpOoswNl2FeffTsn0DgTpAuGXlWfpNDm1PO6+xS/77A72cw6xbE\nfACDq8092qOOp3MIjdakaQ/CvqgNSAleVEgqVz0XAQKBgQCZ1wLQFPEsw/ggHjj6\n1q0N7sFtXpp7dFnjFLcbfv5UidAvxLNmFHAfNRLC4eoBMYZ4qwOYL30gCLKDcvoN\nitcbuHsIyXLCO5ZSQA7Kuq2J14YYDJLXmryRjKHoT+xYMlQoKhPlhIyBS0kzhpEV\ndIpdnOnbRjy05Pz7XHnlkgL8wA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pypilot@python-pilot-392406.iam.gserviceaccount.com",
+  "client_id": "102879668152287560203",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pypilot%40python-pilot-392406.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

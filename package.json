@@ -2,13 +2,19 @@
   "name": "code-automation",
   "version": "1.0.0",
   "description": "Template based code generation",
-  "main": "index.js",
+  "main": "sheetMethods.js",
   "scripts": {
+    "plop": "plop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "googleapis": "^133.0.0"
+    "ejs": "^3.1.9",
+    "googleapis": "^133.0.0",
+    "inquirer": "^9.2.15"
+  },
+  "devDependencies": {
+    "plop": "^4.0.1"
   }
 }

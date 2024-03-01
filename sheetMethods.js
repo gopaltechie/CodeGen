@@ -18,7 +18,7 @@ async function main() {
     console.log('Sheets:', sheets);
     
   // Reading Google Sheet from a specific range
-  const data = await _readGoogleSheet(googleSheetClient, sheetId, tabName, range);
+  const data = await readGoogleSheet(googleSheetClient, sheetId, tabName, range);
   console.log(data);
 
   // Adding a new row to Google Sheet
@@ -41,13 +41,30 @@ async function _getGoogleSheetClient() {
   });
 }
 
-async function _readGoogleSheet(googleSheetClient, sheetId, tabName, range) {
+async function readGoogleSheet(googleSheetClient, sheetId, tabName, range) {
   const res = await googleSheetClient.spreadsheets.values.get({
     spreadsheetId: sheetId,
     range: `${tabName}!${range}`,
   });
 
-  return res.data.values;
+  const rows = res.data.values;
+  if (!rows.length) {
+    return []; // Return an empty array if there are no data
+  }
+
+  // Extract the first row to use as property names
+  const properties = rows.shift();
+
+  // Map the rest of the rows to objects
+  const objects = rows.map((row) => {
+    let obj = {};
+    properties.forEach((property, index) => {
+      obj[property] = row[index] || null; // Use null for missing values
+    });
+    return obj;
+  });
+
+  return objects;
 }
 
 async function _writeGoogleSheet(googleSheetClient, sheetId, tabName, range, data) {
@@ -71,3 +88,6 @@ async function listSheets(googleSheetClient, sheetId) {
     const sheets = response.data.sheets.map(sheet => sheet.properties.title);
     return sheets;
   }
+
+
+  module.exports = readGoogleSheet;

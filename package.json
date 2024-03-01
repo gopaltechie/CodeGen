@@ -4,15 +4,13 @@
   "description": "Template based code generation",
   "main": "sheetMethods.js",
   "scripts": {
-    "plop": "plop",
+    "new": "plop --plopfile generator/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.9",
-    "googleapis": "^133.0.0",
-    "inquirer": "^9.2.15"
+    "googleapis": "^133.0.0"
   },
   "devDependencies": {
     "plop": "^4.0.1"
